@@ -10,11 +10,11 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   display: flex;
-  flex-direction: column;
-  place-content: center;
   align-items: center;
-
+  justify-content: center;
+  flex-direction: column;
   width: 100%;
+  place-content: center;
   max-width: 700px;
 
   form {
